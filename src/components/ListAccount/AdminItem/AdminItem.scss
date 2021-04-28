@@ -1,0 +1,52 @@
+.list-detail .col-md-3,
+.list-detail .col-md-5,
+.list-detail .col-md-1 {
+  border-right: 1px solid #ccc;
+}
+.edit-btn {
+  font-size: 20px;
+  color: #0d6bc4;
+  cursor: pointer;
+}
+.delete-btn {
+  cursor: pointer;
+  font-size: 20px;
+  color: #102d63;
+}
+.status-active {
+  width: max-content;
+  margin: 16px 0;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: rgb(17, 110, 172);
+  color: #ffffff !important;
+}
+.status-inactive {
+  width: max-content;
+  margin: 16px 0;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: rgb(226, 82, 106);
+  color: #ffffff !important;
+}
+.status-wait {
+  width: max-content;
+  margin: 16px 0;
+  padding: 5px;
+  border-radius: 15px;
+  background-color: rgb(15, 155, 27);
+  color: #ffffff !important;
+}
+.option-item {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 30px;
+  justify-content: space-between;
+}
+.email-invite {
+  border: 1px solid rgb(112, 105, 105);
+}
+.edit-userStatus {
+  font-size: 18px;
+}

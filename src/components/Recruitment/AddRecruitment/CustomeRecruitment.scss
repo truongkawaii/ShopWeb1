@@ -1,0 +1,114 @@
+.long-input {
+  padding: 10px;
+  background: whitesmoke;
+  input {
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgba(161, 152, 152, 0.493);
+  }
+
+  h4 {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+.add-job-title {
+  h1 {
+    background: #207b23;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
+.editor-input {
+  padding: 5px 10px;
+  background: whitesmoke;
+  & > h2 {
+    font-size: 14px;
+    font-weight: 600;
+    background: gainsboro;
+    margin-bottom: 0;
+    padding: 10px 10px;
+  }
+}
+.notice-err {
+  color: red;
+  position: absolute;
+}
+.wayworking {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  h5 {
+    text-transform: inherit;
+    margin: 0 5px;
+  }
+  input[type='checkbox'] {
+    margin: 0;
+    width: 17px;
+    height: 17px;
+  }
+}
+.btn-remove {
+  border: none;
+  background: none;
+  span {
+    color: red;
+    // border: 1px solid ;
+    font-size: 19px;
+    background-color: white;
+    line-height: 0.2;
+    width: 22px;
+    height: 23px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+}
+.form-add-skill {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding: 0px 10px 5px 10px;
+  button {
+    outline: none;
+  }
+  input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 3px 5px;
+    width: 45%;
+    outline: none;
+  }
+  select {
+    width: 45%;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+}
+.btn-add-skill {
+  background-color: #c8f5bf;
+  padding: 5px;
+  margin: 5px 10px;
+  border: 1px solid #51cf38;
+  outline: none;
+}
+@media screen and (min-width: 1200px) {
+  .add-job .container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 900px !important;
+  }
+}
+.save-jd {
+  background-color: #2fa63a;
+  padding: 5px;
+  margin-top: 15px;
+  margin-left: 10px;
+  border: 1px solid #188523d0;
+  color: white;
+}
+.add-job {
+  padding: 0 0 50px 0;
+}

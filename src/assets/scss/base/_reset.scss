@@ -1,0 +1,78 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  line-height: 1.3;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  font-weight: bold;
+}
+
+// h1 {
+//   color: $white;
+//   font-weight: normal;
+//   margin: 0;
+// }
+
+h2 {
+  font-weight: normal;
+  margin: 0;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+
+h6 {
+  color: $pink;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}

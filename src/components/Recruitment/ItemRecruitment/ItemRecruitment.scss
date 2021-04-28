@@ -1,0 +1,61 @@
+.list-show-job {
+  h3 {
+    font-size: 11px;
+  }
+  .name-job {
+    font-size: 12px;
+    height: 100%;
+    color: #20264b;
+    margin: 0;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    position: relative;
+    span {
+      position: absolute;
+      color: rgb(31, 47, 99);
+      top: 70%;
+      cursor: pointer;
+      transition: 0.2s;
+      font-size: 20px;
+      &:hover {
+        color: rgb(8, 18, 51);
+      }
+    }
+  }
+}
+.skill-list {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  h3 {
+    padding: 5px;
+    margin: 0 2px;
+    color: rgb(51, 47, 48);
+    border: 2px solid rgb(0, 68, 156);
+  }
+}
+.position-item {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  h3 {
+    margin: 0 5px;
+  }
+}
+.address-item {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  h3 {
+    margin: 0 5px;
+  }
+}
+.option-item2 {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  /* padding: 0 30px; */
+  justify-content: space-between;
+}
